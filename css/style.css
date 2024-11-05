@@ -1,0 +1,123 @@
+/* gradient background*/
+.gradient-background {
+    background: linear-gradient(290deg, #22385a, #76ABAE, #264C62);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+.navbar-custom{
+    background-color: #31363F;
+}
+
+.font-alice{
+    font-family: Alice, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.open-sans-gomes {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+h1{
+    font-size: 4em;
+}
+
+.col-lg-6 > h2 {
+    font-size: 3em;
+}
+
+.belleza-regular {
+    font-family: "Belleza", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+#gomes{
+    font-weight: bold;
+}
+
+#personal{
+    font-size: 2em;
+    color: white;
+}
+
+#me-photo {
+    border-radius: 50%;
+    box-shadow: -15px 10px;
+}
+
+
+.nv3{
+    background-color: #00BF63;
+    color: white;
+    --bs-nav-link-hover-color: rgba(255, 255, 255, 0.747);
+    padding-left: 1em;
+    padding-right: 1em;
+    --bs-border-radius: 6.375rem
+}
+
+.nav-link{
+    color: white;
+    --bs-nav-link-hover-color: rgba(255, 255, 255, 0.747);
+    margin-top: 0.2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+ul > .nav{
+    margin-top: 10px;
+}
+
+
+/*learn more button*/
+.d-flex.justify-content-center.btn.btn-lg.px-4.rounded-pill.open-sans-gomes{
+    color: white;
+    background-color: #264C62;
+}
+
+#profile-pic{
+    border-radius: 50%;
+    box-shadow: -5px 1px 7px;
+    margin-bottom: 3em;
+}
+
+.h2-body{
+    font-family: alice, serif;
+}
+
+.icon-square {
+    background-color: #76ABAE;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.75rem;
+}
+
+h3{
+    font-family: alice, serif;
+}
+
+.mb-3.mb-md-0.fw-bold{
+    color: white;
+}
+
+.progress-bar{
+    background-color: #264C62;
+}
